@@ -16,7 +16,7 @@ This walkthrough demonstrates the complete candidate evaluation workflow, from u
 
 ## Step 1: Starting a Candidate Evaluation Workflow
 
-![Workflow Start](file:///Users/satishkumar/Downloads/Step001_CandidateEvalWorkflowStart.png)
+![Workflow Start](./airecruiterimages/Step001_CandidateEvalWorkflowStart.png)
 
 The journey begins at the **Candidate Evaluation** page where recruiters can initiate a new analysis workflow. The interface provides:
 
@@ -32,7 +32,7 @@ The system uses intelligent text extraction with `pdfplumber` and `python-docx` 
 
 ### Step 2a: File Upload Confirmation
 
-![Upload Confirmation](file:///Users/satishkumar/Downloads/Step002a_CandidateEvalWorkflowStart-01.png)
+![Upload Confirmation](./airecruiterimages/Step002a_CandidateEvalWorkflowStart-01.png)
 
 After uploading the resume and job description, the system confirms successful file reception and displays:
 - File names and sizes
@@ -41,7 +41,7 @@ After uploading the resume and job description, the system confirms successful f
 
 ### Step 2b: Real-Time Workflow Progress
 
-![Workflow Progress](file:///Users/satishkumar/Downloads/Step002b_CandidateAnalysis-02.png)
+![Workflow Progress](./airecruiterimages/Step002b_CandidateAnalysis-02.png)
 
 The **Workflow Progress** panel provides real-time status updates for all 20+ analysis steps:
 
@@ -63,7 +63,7 @@ The overall progress bar shows 10% completion, with estimated total time of 8-12
 
 ### Step 2c: Active Analysis in Progress
 
-![Analysis Running](file:///Users/satishkumar/Downloads/Step002c_CandidateAnalysis.png)
+![Analysis Running](./airecruiterimages/Step002c_CandidateAnalysis.png)
 
 The "Analyzing..." button indicates the backend workflow orchestrator (DAG-based) is actively processing the candidate's data through multiple stages in parallel where possible.
 
@@ -71,7 +71,7 @@ The "Analyzing..." button indicates the backend workflow orchestrator (DAG-based
 
 ## Step 3: Executive Summary - Consolidated Candidate Score
 
-![Executive Summary](file:///Users/satishkumar/Downloads/Step003_CandidateAnalysisExecutiveSummary.png)
+![Executive Summary](./airecruiterimages/Step003_CandidateAnalysisExecutiveSummary.png)
 
 Upon completion, the **Executive Summary** tab presents a comprehensive at-a-glance assessment:
 
@@ -130,7 +130,7 @@ Upon completion, the **Executive Summary** tab presents a comprehensive at-a-gla
 
 ### Step 4a: How the Candidate Was Scored
 
-![Scoring Breakdown](file:///Users/satishkumar/Downloads/Step004a_HowCandidateWasScored.png)
+![Scoring Breakdown](./airecruiterimages/Step004a_HowCandidateWasScored.png)
 
 This tab reveals the complete scoring methodology with mathematical transparency:
 
@@ -163,7 +163,7 @@ Where:
 
 ### Step 4b: Detailed Score Calculation
 
-![Score Calculation](file:///Users/satishkumar/Downloads/Step004b_ScoringCalculation.png)
+![Score Calculation](./airecruiterimages/Step004b_ScoringCalculation.png)
 
 This view shows the actual computation for each dimension:
 
@@ -195,7 +195,7 @@ This view shows the actual computation for each dimension:
 
 ### Step 4c: What-If Analysis - Score Sensitivity
 
-![What-If Analysis](file:///Users/satishkumar/Downloads/Step004c_ScoringWhatIfAnalysis.png)
+![What-If Analysis](./airecruiterimages/Step004c_ScoringWhatIfAnalysis.png)
 
 The interactive **What-If Analysis** tool allows recruiters to explore scoring scenarios:
 
@@ -212,7 +212,7 @@ The interactive **What-If Analysis** tool allows recruiters to explore scoring s
 
 ## Step 5: Detailed Scoring Explanation with Mathematical Formulas
 
-![Detailed Explanation](file:///Users/satishkumar/Downloads/Step005_ScoringDetailedExplanation.png)
+![Detailed Explanation](./airecruiterimages/Step005_ScoringDetailedExplanation.png)
 
 This section provides an academic-level breakdown of each scoring dimension:
 
@@ -277,7 +277,7 @@ Where:
 
 ## Step 6: Candidate-Job Description Match Analysis
 
-![JD Match](file:///Users/satishkumar/Downloads/Step006_CandidateMatchForJobDescriptionAnalysis.png)
+![JD Match](./airecruiterimages/Step006_CandidateMatchForJobDescriptionAnalysis.png)
 
 This critical tab shows how well the candidate aligns with job requirements:
 
@@ -312,7 +312,7 @@ This critical tab shows how well the candidate aligns with job requirements:
 
 ## Step 7: Comprehensive Candidate Profile
 
-![Candidate Details](file:///Users/satishkumar/Downloads/Step007_CandidateDetails.png)
+![Candidate Details](./airecruiterimages/Step007_CandidateDetails.png)
 
 The **Candidate Details** section aggregates all extracted information:
 
@@ -361,7 +361,7 @@ The **Candidate Details** section aggregates all extracted information:
 
 ## Step 8: Job Description Requirements Breakdown
 
-![JD Details](file:///Users/satishkumar/Downloads/Step008_JobDescriptionDetails.png)
+![JD Details](./airecruiterimages/Step008_JobDescriptionDetails.png)
 
 This tab shows the parsed job description with extracted requirements:
 
@@ -408,7 +408,7 @@ This tab shows the parsed job description with extracted requirements:
 
 ## Step 9: Multi-LLM Code Evaluation Overview
 
-![Multi-LLM Overview](file:///Users/satishkumar/Downloads/Step009_CandidateGitHubCodeEvaluationByLLMs.png)
+![Multi-LLM Overview](./airecruiterimages/Step009_CandidateGitHubCodeEvaluationByLLMs.png)
 
 The **Code Quality** tab showcases the unique multi-LLM consensus approach:
 
@@ -443,7 +443,7 @@ In this case, 77% agreement suggests the candidate's code quality is reasonably 
 
 ## Step 10: OpenAI Code Evaluation Details
 
-![OpenAI Evaluation](file:///Users/satishkumar/Downloads/Step010_CandidateGithubCodeEvaluationByOpenAI.png)
+![OpenAI Evaluation](./airecruiterimages/Step010_CandidateGithubCodeEvaluationByOpenAI.png)
 
 ### OpenAI GPT-4o Analysis: 50.0/100
 
@@ -487,7 +487,7 @@ In this case, 77% agreement suggests the candidate's code quality is reasonably 
 
 ## Step 11: Claude Code Evaluation Details
 
-![Claude Evaluation](file:///Users/satishkumar/Downloads/Step011_CandidateGithubCodeEvaluationByClaude.png)
+![Claude Evaluation](./airecruiterimages/Step011_CandidateGithubCodeEvaluationByClaude.png)
 
 ### Anthropic Claude Sonnet 4.x Analysis: (Score not shown in image)
 
@@ -531,7 +531,7 @@ Claude excels at architectural reasoning:
 
 ## Step 12: Knowledge Graph Construction
 
-![Knowledge Graph Overview](file:///Users/satishkumar/Downloads/Step012_KnowledgeGraphOfGitHubSourceCode.png)
+![Knowledge Graph Overview](./airecruiterimages/Step012_KnowledgeGraphOfGitHubSourceCode.png)
 
 The **Knowledge Graph** tab is where AI Recruiter 2.0 truly differentiates itself:
 
@@ -584,7 +584,7 @@ The **Knowledge Graph** tab is where AI Recruiter 2.0 truly differentiates itsel
 
 ## Step 13: Interactive Knowledge Graph Visualization (Zoomed)
 
-![KG Visualization Zoomed](file:///Users/satishkumar/Downloads/Step013_KnowledgeGraphVisualizationInteractiveZoomedIn.png)
+![KG Visualization Zoomed](./airecruiterimages/Step013_KnowledgeGraphVisualizationInteractiveZoomedIn.png)
 
 This view shows a **zoomed-in section** of the interactive D3.js visualization:
 
@@ -628,7 +628,7 @@ Connected to:
 
 ## Step 14: Interactive Knowledge Graph - Full View
 
-![KG Visualization Full](file:///Users/satishkumar/Downloads/Step014_KnowledgeGraphVisualizationInteractive.png)
+![KG Visualization Full](./airecruiterimages/Step014_KnowledgeGraphVisualizationInteractive.png)
 
 The **full graph view** shows the entire codebase structure:
 
@@ -658,7 +658,7 @@ The **full graph view** shows the entire codebase structure:
 
 ## Step 15: Static Knowledge Graph Visualization (PlantUML)
 
-![KG Static](file:///Users/satishkumar/Downloads/Step015_KnowledgeGraphVisualizationStatic.png)
+![KG Static](./airecruiterimages/Step015_KnowledgeGraphVisualizationStatic.png)
 
 For documentation and presentations, AI Recruiter 2.0 generates **static diagrams** using PlantUML:
 
@@ -706,7 +706,7 @@ package "test_sudoku.c" {
 
 ### Step 16a: Component Architecture
 
-![Architecture Diagram 1](file:///Users/satishkumar/Downloads/Step016a_ArchitectureDiagramFromKnowledgeGraph.png)
+![Architecture Diagram 1](./airecruiterimages/Step016a_ArchitectureDiagramFromKnowledgeGraph.png)
 
 AI Recruiter 2.0 automatically generates **architecture diagrams** showing:
 
@@ -722,7 +722,7 @@ AI Recruiter 2.0 automatically generates **architecture diagrams** showing:
 
 ### Step 16b: Module Dependency Graph
 
-![Architecture Diagram 2](file:///Users/satishkumar/Downloads/Step016b_ArchitectureDiagramFromKnowledgeGraph.png)
+![Architecture Diagram 2](./airecruiterimages/Step016b_ArchitectureDiagramFromKnowledgeGraph.png)
 
 This diagram focuses on **module-level dependencies**:
 
@@ -746,7 +746,7 @@ This diagram focuses on **module-level dependencies**:
 
 ## Step 17: Call Graph Visualization
 
-![Call Graph](file:///Users/satishkumar/Downloads/Step017_CallGraphVisualizationFromKG.png)
+![Call Graph](./airecruiterimages/Step017_CallGraphVisualizationFromKG.png)
 
 The **Call Graph** shows function invocation hierarchy:
 
@@ -789,7 +789,7 @@ main()
 
 ### Step 18a: Function Purpose Detection
 
-![Function Purposes](file:///Users/satishkumar/Downloads/Step018a_SourceCodeSemanticAnalysisFunctionPurposes.png)
+![Function Purposes](./airecruiterimages/Step018a_SourceCodeSemanticAnalysisFunctionPurposes.png)
 
 Using LLM-powered semantic analysis, AI Recruiter 2.0 **automatically infers** function purposes:
 
@@ -827,7 +827,7 @@ Using LLM-powered semantic analysis, AI Recruiter 2.0 **automatically infers** f
 
 ### Step 18b: Design Pattern Detection
 
-![Code Patterns](file:///Users/satishkumar/Downloads/Step018b_SourceCodeSemanticAnalysisCodePattern.png)
+![Code Patterns](./airecruiterimages/Step018b_SourceCodeSemanticAnalysisCodePattern.png)
 
 AI Recruiter 2.0 identifies **design patterns** and **anti-patterns**:
 
@@ -874,7 +874,7 @@ AI Recruiter 2.0 identifies **design patterns** and **anti-patterns**:
 
 ## Step 19: Security Analysis Using Knowledge Graph
 
-![Security Analysis](file:///Users/satishkumar/Downloads/Step019_SecurityAnalysisOfSourceCodeUsingKG.png)
+![Security Analysis](./airecruiterimages/Step019_SecurityAnalysisOfSourceCodeUsingKG.png)
 
 The **Security Analysis** tab combines static analysis with LLM evaluations:
 
@@ -950,7 +950,7 @@ The **Security Analysis** tab combines static analysis with LLM evaluations:
 
 ## Step 20: Overall Code Quality Assessment
 
-![Code Quality](file:///Users/satishkumar/Downloads/Step020_OverallCodeQualityUsingKG.png)
+![Code Quality](./airecruiterimages/Step020_OverallCodeQualityUsingKG.png)
 
 The **Quality Metrics** tab synthesizes all analyses into a comprehensive report:
 
@@ -1030,7 +1030,7 @@ The **Quality Metrics** tab synthesizes all analyses into a comprehensive report
 
 ### Step 21a: Generated Questions Overview
 
-![Interview Questions](file:///Users/satishkumar/Downloads/Step021a_InterviewQuestionsBasedOnSourceCode.png)
+![Interview Questions](./airecruiterimages/Step021a_InterviewQuestionsBasedOnSourceCode.png)
 
 AI Recruiter 2.0 automatically generates **personalized technical questions** based on the candidate's code:
 
@@ -1080,7 +1080,7 @@ AI Recruiter 2.0 automatically generates **personalized technical questions** ba
 
 ### Step 21b: Question Details with Context
 
-![Question Details](file:///Users/satishkumar/Downloads/Step021b_InterviewQuestionDetails.png)
+![Question Details](./airecruiterimages/Step021b_InterviewQuestionDetails.png)
 
 Each question includes **rich context** for the interviewer:
 
@@ -1121,7 +1121,7 @@ Each question includes **rich context** for the interviewer:
 
 ## Step 22: Workflow Timing and Performance Analysis
 
-![Workflow Timing](file:///Users/satishkumar/Downloads/Step022_WorkflowTimingAndAnalysis.png)
+![Workflow Timing](./airecruiterimages/Step022_WorkflowTimingAndAnalysis.png)
 
 The **Workflow Timing** tab provides transparency into processing time:
 
@@ -1193,7 +1193,7 @@ The **Workflow Timing** tab provides transparency into processing time:
 
 ### Step 23a: Active Workflows View
 
-![Workflow Dashboard 1](file:///Users/satishkumar/Downloads/Step023a_WorkflowDashboard.png)
+![Workflow Dashboard 1](./airecruiterimages/Step023a_WorkflowDashboard.png)
 
 The **Workflow Dashboard** provides a central hub for managing all candidate evaluations:
 
@@ -1221,7 +1221,7 @@ Each row shows:
 
 ### Step 23b: Workflow Details Panel
 
-![Workflow Dashboard 2](file:///Users/satishkumar/Downloads/Step023b_WorkflowDashboard.png)
+![Workflow Dashboard 2](./airecruiterimages/Step023b_WorkflowDashboard.png)
 
 Clicking a workflow expands details:
 
